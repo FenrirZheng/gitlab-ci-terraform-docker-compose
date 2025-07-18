@@ -1,4 +1,8 @@
-# 自己先裝terraform_1
+# Demo
+
+展示使用gitlab-ci launch terraform, terraform 在調度docker compose 啟動nginx
+
+# 自己先裝terraform
 
 ```shell
 cd /home/fenrir/code/ai-gen/gitlab-ci-terraform-docker-compose
