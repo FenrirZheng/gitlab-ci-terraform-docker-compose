@@ -1,0 +1,10 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  before_script:
+    - ./terraform init
+  script:
+    - ./terraform apply -auto-approve
+  when: manual # For safety, let's make this a manual trigger
